@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visualizador de Console</title>
+    <style>
+      body {
+        background-color: #0f172a;
+        color: #e2e8f0;
+        font-family: monospace;
+        padding: 20px;
+      }
+      h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+      }
+      #output {
+        background: #1e293b;
+        border-radius: 8px;
+        padding: 10px;
+        height: 300px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+      }
+      button {
+        background: #2563eb;
+        border: none;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      button:hover {
+        background: #1d4ed8;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Console na Página</h1>
+    <button onclick="testar()">Rodar Teste</button>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
