@@ -13,7 +13,7 @@
   };
 })();
 
-function verificarIdade(idade) {
+/* function verificarIdade(idade) {
   if (idade >= 18) {
     console.log("Você ja pode votar!");
   } else if (idade >= 16 && idade < 18) {
@@ -42,14 +42,14 @@ verificarTurno("M");
 verificarTurno("V");
 verificarTurno("N");
 verificarTurno("T");
-console.log("-----");
+console.log("-----"); */
 function determinarTriangulo(ladoA, ladoB, ladoC) {
   if (ladoA === ladoB && ladoB === ladoC) {
-    console.log("Triangulo Equilatero");
+    console.log("Triangulo Equilatero \n");
   } else if (ladoA !== ladoB && ladoB !== ladoC && ladoA !== ladoC) {
-    console.log("Triangulo Escaleno");
+    console.log("Triangulo Escaleno \n");
   } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
-    console.log("Triangulo Isoceles");
+    console.log("Triangulo Isoceles \n");
   } else {
     console.log("Não é um triangulo");
   }
@@ -58,8 +58,8 @@ function determinarTriangulo(ladoA, ladoB, ladoC) {
 determinarTriangulo(2, 2, 2);
 determinarTriangulo(2, 1, 2);
 determinarTriangulo(2, 1, 3);
-console.log("-----");
-const calendario = [
+
+/* const calendario = [
   {
     dia: "segunda",
     tarefas: ["estudar", "academia"],
@@ -72,4 +72,4 @@ const calendario = [
 
 console.log(
   `hoje é ${calendario[1].dia} e eu tenho que ${calendario[1].tarefas[0]}`
-);
+); */
