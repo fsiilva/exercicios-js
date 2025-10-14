@@ -45,11 +45,17 @@ verificarTurno("T");
 console.log("-----"); */
 function determinarTriangulo(ladoA, ladoB, ladoC) {
   if (ladoA === ladoB && ladoB === ladoC) {
-    console.log("Triangulo Equilatero \n");
+    console.log(
+      `Triangulo de lados ${ladoA}, ${ladoB} e ${ladoC} é Equilatero \n`
+    );
   } else if (ladoA !== ladoB && ladoB !== ladoC && ladoA !== ladoC) {
-    console.log("Triangulo Escaleno \n");
+    console.log(
+      `Triangulo de lados ${ladoA}, ${ladoB} e ${ladoC} é Escaleno \n`
+    );
   } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
-    console.log("Triangulo Isoceles \n");
+    console.log(
+      `Triangulo de lados ${ladoA}, ${ladoB} e ${ladoC} é Isoceles \n`
+    );
   } else {
     console.log("Não é um triangulo");
   }
